@@ -1,3 +1,13 @@
 spring:
   application:
     name: GameDevShare
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: todo
+    password: todo
+
+  jpa:
+    hibernate:
+      ddl-auto: validate   # Hibernate will NOT create tables.
+    show-sql: true

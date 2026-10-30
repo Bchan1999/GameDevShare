@@ -1,4 +1,4 @@
 package com.chan.GameDevShare.controller;
 
-public class PostsController {
+public class ProjectController {
 }
